@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/Home.cshtml",
+  "Master": null,
+  "Udi": "umb://template/6ecce137ea31469fb46ca28d31c749e7",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/Home.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Home",
+  "Alias": "Home",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.14"
+}
