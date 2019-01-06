@@ -1,0 +1,15 @@
+{
+  "EditorAlias": "Our.Umbraco.uTwit",
+  "DatabaseType": 0,
+  "PreValues": {
+    "consumerKey": "",
+    "consumerSecret": ""
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/41124ad9063b48ab9b344db982606348",
+  "Dependencies": [],
+  "Name": "Twitter OAuth",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.14"
+}
