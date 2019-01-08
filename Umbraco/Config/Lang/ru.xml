@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language alias="ru" intName="Russian" localName="русский" lcid="" culture="ru-RU">
   <creator>
     <name>The Umbraco community</name>
@@ -45,7 +45,7 @@
     <key alias="unpublish">Скрыть</key>
     <key alias="unlock">Разблокировать</key>
     <key alias="update">Обновить</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key></area>
+  </area>
   <area alias="actionCategories">
     <key alias="content">Содержимое</key>
     <key alias="administration">Администрирование</key>
@@ -869,7 +869,7 @@
     <key alias="notificationEmailsCheckSuccessMessage"><![CDATA[Адрес для отправки уведомлений установлен в <strong>%0%</strong>.]]></key>
     <key alias="notificationEmailsCheckErrorMessage"><![CDATA[Адрес для отправки уведомлений все еще установлен в значение по-умолчанию <strong>%0%</strong>.]]></key>
     <key alias="scheduledHealthCheckEmailBody"><![CDATA[<html><body><p>Зафиксированы следующие результаты автоматической проверки состояния Umbraco по расписанию, запущенной на %0% в %1%:</p>%2%</body></html>]]></key>
-    <key alias="scheduledHealthCheckEmailSubject">Результат проверки состояния Umbraco</key>
+    <key alias="scheduledHealthCheckEmailSubject">Результат проверки состояния Umbraco: %0%</key>
   </area>
   <area alias="help">
     <key alias="goTo">перейти к</key>
@@ -879,8 +879,6 @@
   </area>
   <area alias="imagecropper">
     <key alias="reset">Сбросить</key>
-    <key alias="defineCrop">Задать рамку</key>
-    <key alias="defineCropDescription">Задайте рамке имя (алиас), а также ширину и высоту по-умолчанию</key>
     <key alias="saveCrop">Сохранить рамку</key>
     <key alias="addCrop">Добавить новую рамку</key>
   </area>
@@ -1680,7 +1678,7 @@
 
     <key alias="iWant">Мне нужны</key>   
     <key alias="allContent">все документы</key>
-    <key alias="contentOfType">документы типа "%0%"</key>
+    <key alias="contentOfType">документы типа &quot;%0%&quot;</key>
     <key alias="from">из</key>
     <key alias="websiteRoot">всего сайта</key>
     <key alias="where">где</key>

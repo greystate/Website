@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="pl" intName="Polish" localName="polski" lcid="21" culture="pl-PL">
   <creator>
     <name>The Umbraco community</name>
@@ -45,7 +45,7 @@
     <key alias="setPermissions">Ustaw uprawnienia</key>
     <key alias="unlock">Odblokuj</key>
     <key alias="createblueprint">Stwórz Szablon Zawartości</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="actionCategories">
     <key alias="content">Zawartość</key>
     <key alias="administration">Administracja</key>
@@ -1022,8 +1022,6 @@ Naciśnij przycisk <strong>instaluj</strong>, aby zainstalować bazę danych Umb
   </area>
   <area alias="imagecropper">
     <key alias="reset">Resetuj</key>
-    <key alias="defineCrop">Zdefiniuj przycięcie</key>
-    <key alias="defineCropDescription">Ustaw alias dla przycięcia, a także jego domyślną szerokość i długość</key>
     <key alias="saveCrop">Zapisz przycięcie</key>
     <key alias="addCrop">Dodaj nowe przycięcie</key>
   </area>
@@ -1239,7 +1237,7 @@ Naciśnij przycisk <strong>instaluj</strong>, aby zainstalować bazę danych Umb
 
     <key alias="iWant">Chcę</key>   
     <key alias="allContent">całą zawartość</key>
-    <key alias="contentOfType">zawartość typu "%0%"</key>
+    <key alias="contentOfType">zawartość typu &quot;%0%&quot;</key>
     <key alias="from">z</key>
     <key alias="websiteRoot">mojej strony</key>
     <key alias="where">gdzie</key>

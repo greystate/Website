@@ -34,7 +34,7 @@
     <key alias="translate">Översätt</key>
     <key alias="unpublish">Avpublicera</key>
     <key alias="update">Uppdatera</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="assignDomain">
     <key alias="addNew">Lägg till nytt domännamn</key>
     <key alias="domain">Domännamn</key>
@@ -437,7 +437,7 @@
     <key alias="current">nuvarande</key>
     <key alias="embed">Inbäddning</key>
     <key alias="retrieve">Hämta</key>
-    <key alias="selected">valgt</key>
+    <key alias="selected">valda</key>
   </area>
   <area alias="graphicheadline">
     <key alias="backgroundcolor">Bakgrundsfärg</key>
@@ -645,8 +645,6 @@
   </area>
   <area alias="imagecropper">
     <key alias="reset">Återställ</key>
-    <key alias="defineCrop">Definiera beskräning</key>
-    <key alias="defineCropDescription">Ge beskärningen ett alias och dess standardbredd och -höjd</key>
     <key alias="saveCrop">spara beskärning</key>
     <key alias="addCrop">Lägg till ny beskärning</key>
   </area>

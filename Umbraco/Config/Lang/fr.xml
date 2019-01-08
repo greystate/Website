@@ -47,7 +47,7 @@
     <key alias="unlock">Débloquer</key>
     <key alias="createblueprint">Créer un modèle de contenu</key>
 	<key alias="resendInvite">Envoyer à nouveau l'invitation</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="actionCategories">
 	<key alias="content">Contenu</key>
 	<key alias="administration">Administration</key>
@@ -1286,7 +1286,6 @@ Pour gérer votre site, ouvrez simplement le backoffice Umbraco et commencez à 
   <area alias="imagecropper">
     <key alias="reset">Réinitialiser</key>
     <key alias="defineCrop">Définir le recadrage</key>
-    <key alias="defineCropDescription">Donnez un alias au recadrage ainsi que sa largeur et sa hauteur par défaut</key>
     <key alias="saveCrop">Sauvegarder le recadrage</key>
     <key alias="addCrop">Ajouter un nouveau recadrage</key>
   </area>
@@ -1527,7 +1526,7 @@ Pour gérer votre site, ouvrez simplement le backoffice Umbraco et commencez à 
 
     <key alias="iWant">Je veux</key>   
     <key alias="allContent">tout le contenu</key>
-    <key alias="contentOfType">le contenu du type "%0%"</key>
+    <key alias="contentOfType">le contenu du type &quot;%0%&quot;</key>
     <key alias="from">à partir de</key>
     <key alias="websiteRoot">mon site web</key>
     <key alias="where">où</key>
@@ -2170,7 +2169,7 @@ Pour gérer votre site, ouvrez simplement le backoffice Umbraco et commencez à 
     <key alias="notificationEmailsCheckSuccessMessage"><![CDATA[Un email de notification a été envoyé à <strong>%0%</strong>.]]></key>
     <key alias="notificationEmailsCheckErrorMessage"><![CDATA[L'adresse email de notification est toujours à sa valeur par défaut : <strong>%0%</strong>.]]></key>
     <key alias="scheduledHealthCheckEmailBody"><![CDATA[<html><body><p>Les résultats de l'exécution du Umbraco Health Checks planifiée le %0% à %1% sont les suivants :</p>%2%</body></html>]]></key>
-    <key alias="scheduledHealthCheckEmailSubject">Statut du Umbraco Health Check</key>
+    <key alias="scheduledHealthCheckEmailSubject">Statut du Umbraco Health Check: %0%</key>
   </area>
   <area alias="redirectUrls">
     <key alias="disableUrlTracker">Désactiver URL tracker</key>
