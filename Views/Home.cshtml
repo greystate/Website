@@ -7,9 +7,23 @@
 body {
 	background-color: #222;
 	color: #fff;
+	
 }
 h1 {
+	font-size: 3em;
+	font-family: sans-serif;
 	text-align: center;
+}
+
+@supports (display: grid) {
+	body {
+		display: grid;
+		height: 100vh;
+	}
+	
+	h1 {
+		margin: auto;
+	}
 }
 </style>
 
